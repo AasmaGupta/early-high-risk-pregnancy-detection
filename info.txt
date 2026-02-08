@@ -1,0 +1,58 @@
+Linear model → Logistic Regression
+
+Bagging tree model → Random Forest
+
+Boosting tree model → Gradient Boosting/XGBoost
+
+Combined meta-ensemble → Soft Voting 87.19% accuracy
+
+
+
+
+A. Model-Based Methods
+
+These use trained ML models to determine feature importance.
+
+1. XGBoost Feature Importance
+
+Uses how often and how strongly each feature is used in boosted trees to rank importance.
+
+2. RFE (Recursive Feature Elimination)
+
+Iteratively removes the least important features based on a model’s weight or split contribution.
+
+B. Meta-Heuristic Optimization Methods
+
+Nature-inspired search algorithms that find the best subset of features.
+
+3. GA — Genetic Algorithm
+
+Uses evolutionary operations (selection, crossover, mutation) to discover the best feature combination.
+
+4. PSO — Particle Swarm Optimization
+
+Searches for optimal feature subsets by simulating swarm behavior to minimize model error.
+
+C. Statistical Methods
+
+Measure the relationship between each feature and the target variable.
+
+5. Chi-Square Test (χ²)
+
+Checks how strongly each feature is associated with the risk category.
+
+6. Mutual Information (MI)
+
+Quantifies how much predictive information a feature contributes to the target.
+
+D. Model Explainability Tools
+
+Explain how features influence predictions globally and individually.
+
+7. SHAP (Shapley Additive Explanations)
+
+Assigns credit to each feature for its contribution to every prediction based on game theory.
+
+8. Permutation Importance
+
+Measures performance drop when a feature is shuffled, revealing how essential it is.
