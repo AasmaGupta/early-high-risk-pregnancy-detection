@@ -33,3 +33,5 @@ def predict(data: dict):
         "confidence": float(max(proba))
     }
 
+
+

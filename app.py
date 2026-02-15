@@ -224,3 +224,4 @@ elif page == "Tech Stack":
         st.success("Matplotlib")
         st.success("GitHub")
 
+
