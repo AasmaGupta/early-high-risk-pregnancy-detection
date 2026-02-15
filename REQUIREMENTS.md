@@ -1,83 +1,39 @@
--> Software Requirements
+# System Requirements — Early High-Risk Pregnancy Detection System
 
-Python 3.10+
+## Software Requirements
 
-FastAPI
+### Core Environment
+- Python 3.10+
+- FastAPI
+- Uvicorn
+- Joblib
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
 
-Uvicorn
+---
 
-Joblib
+## Explainability & Visualization
 
-Pandas
+- SHAP
+- Matplotlib
+- Seaborn
 
-NumPy
+---
 
-Scikit-learn
+## Development Tools
 
-XGBoost
+- Git & GitHub
+- Jupyter Notebook
+- VS Code
+- Virtual Environment (venv)
 
-Explainability & Visualization
+---
 
-SHAP
+## Python Library Installation
 
-Matplotlib
+Install all dependencies using:
 
-Seaborn
-
-
--> Development Tools
-
-Git & GitHub
-
-Jupyter Notebook
-
-VS Code
-
-Virtual Environment (venv)
-
--> Python Libraries
-
-Install using:
-
-'pip install fastapi uvicorn pandas numpy scikit-learn xgboost shap matplotlib seaborn joblib'
-
-💻 Hardware Requirements
-Minimum
-
-4 GB RAM
-
-Dual-core CPU
-
-Internet connection
-
-Recommended
-
-8 GB RAM+
-
-SSD storage
-
--> Deployment Requirements (Future)
-
-Cloud server (AWS / GCP / Azure)
-
-Docker (containerization)
-
-HTTPS support
-
-Domain hosting
-
--> Input Parameters
-
-The system requires the following clinical inputs:
-
-Age
-
-Systolic Blood Pressure
-
-Diastolic Blood Pressure
-
-Blood Sugar
-
-Body Temperature
-
-Heart Rate
+```bash
+pip install fastapi uvicorn pandas numpy scikit-learn xgboost shap matplotlib seaborn joblib
