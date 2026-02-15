@@ -22,6 +22,36 @@
 
 ---
 
+# Website Requirements 
+
+## Frontend
+- React.js
+- HTML, CSS, JavaScript
+- Responsive & mobile-friendly UI
+- Interactive dashboards & charts
+
+---
+
+## Backend
+- Python 3.10+
+- FastAPI + Uvicorn
+- REST API for prediction & insights
+
+---
+
+## Machine Learning Integration
+- Scikit-learn & XGBoost models
+- Joblib model loading (`.pkl`)
+- Risk prediction & probability outputs
+
+---
+
+## Deployment (Optional)
+- Cloud hosting (AWS / GCP / Azure)
+- HTTPS & domain support
+
+---
+
 ## Development Tools
 
 - Git & GitHub
