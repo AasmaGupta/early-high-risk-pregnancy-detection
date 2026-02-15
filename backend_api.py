@@ -32,3 +32,4 @@ def predict(data: dict):
         "risk": risk_map[pred],
         "confidence": float(max(proba))
     }
+
