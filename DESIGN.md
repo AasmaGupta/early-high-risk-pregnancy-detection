@@ -135,4 +135,3 @@ Provides clinical transparency through:
 - **Clinical interpretability**
 - **Lightweight & scalable**
 - **Accessible for rural healthcare**
-- **Decision support, not replacement**
