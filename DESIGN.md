@@ -35,7 +35,6 @@ It combines established medical thresholds with predictive modeling to generate 
 
 ### 3. Backend API Layer
 
-Built using **FastAPI**
 
 **Responsibilities**
 - Receive clinical inputs
@@ -44,9 +43,9 @@ Built using **FastAPI**
 - Provide explainability insights
 
 **Endpoints**
-- `/predict` → risk prediction  
-- `/explain` → feature insights  
-- `/history` → patient records  
+- `predict` → risk prediction  
+- `explain` → feature insights  
+- `history` → patient records  
 
 ---
 
