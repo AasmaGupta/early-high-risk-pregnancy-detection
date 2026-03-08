@@ -11,8 +11,6 @@ print("Columns:", df.columns)
 
 df["State"] = df["State"].astype(str)
 
-
-
 # Antenatal Care Coverage
 
 plt.figure(figsize=(10,14))

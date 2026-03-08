@@ -46,7 +46,7 @@ def patient_inputs():
     col1, col2 = st.columns(2)
 
     with col1:
-        age = st.number_input("Age", 15, 50, 25)
+        age = st.number_input("Age", 16, 50, 25)
         sys = st.number_input("Systolic BP", 80, 200, 120)
         bs = st.number_input("Blood Sugar", 50, 300, 100)
 
